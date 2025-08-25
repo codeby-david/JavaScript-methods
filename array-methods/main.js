@@ -90,26 +90,26 @@ let arr = [1, 2, 3, 4, 5];
 console.log(arr.slice(1, 4)); // [2, 3, 4]
 console.log(arr);             // [1, 2, 3, 4, 5]
 
-//indexOf()-Returns the index of the first occurrence of the value
+//14.indexOf()-Returns the index of the first occurrence of the value
 //         -Returns -1 if not found.
 let items = ["pen", "book", "pen"];
 console.log(items.indexOf("pen"));  // 0
 console.log(items.indexOf("laptop")); // -1
 
-//flat()-Flattens nested arrays.
+//15.flat()-Flattens nested arrays.
 let nested = [1, [2, [3, 4]]];
 console.log(nested.flat());     // [1, 2, [3, 4]]
 console.log(nested.flat(2));    // [1, 2, 3, 4]
 
-//some()-Returns true if at least one element passes a condition.
+//16.some()-Returns true if at least one element passes a condition.
 let nums = [1, 3, 5, 8];
 console.log(nums.some(n => n % 2 === 0)); // true (because 8 is even)
 
-//every()Returns true if all element passes a condition
+//17.every()Returns true if all element passes a condition
 let nums2 = [2, 4, 6];
 console.log(nums2.every(n => n % 2 === 0)); // true
 
-//sort()-Sorts elements as strings by default.
+//18.sort()-Sorts elements as strings by default.
 //      -To sort numbers correctly, pass a compare function.
 let letters = ["c", "a", "b"];
 console.log(letters.sort()); // ["a", "b", "c"]
