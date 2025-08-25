@@ -20,12 +20,12 @@ The goal is to help beginners and developers **learn, practice, and revise** Jav
 
 ## Table of Contents  
 
-1. [Array Methods](#-array-methods)  
-2. [String Methods](#-string-methods)  
-3. [Object Methods](#-object-methods)  
-4. [Date Methods](#-date-methods)  
-5. [Math Methods](#-math-methods)  
-6. [DOM Methods](#-dom-methods)  
+1. [Array Methods](https://github.com/codeby-david/JavaScript-methods/tree/main/array-methods)  
+2. [String Methods](https://github.com/codeby-david/JavaScript-methods/tree/main/string-methods)  
+3. [Object Methods](https://github.com/codeby-david/JavaScript-methods/tree/main/object-methods)  
+4. [Date Methods](https://github.com/codeby-david/JavaScript-methods/tree/main/date-methods)  
+5. [Math Methods](https://github.com/codeby-david/JavaScript-methods/tree/main/Math-methods)  
+6. [DOM Methods](https://github.com/codeby-david/JavaScript-methods/tree/main/DOM-methods)  
  
  
 
