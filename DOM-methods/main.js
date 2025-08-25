@@ -27,3 +27,15 @@ button.addEventListener("click",
 let list = document.getElementById("list");
 let firstItem = list.firstElementChild;
 list.removeChild(firstItem); // removes "Item 1"
+
+
+
+
+
+
+
+
+
+
+
+
