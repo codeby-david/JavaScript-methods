@@ -33,5 +33,3 @@ The goal is to help beginners and developers **learn, practice, and revise** Jav
 
 
 
-let found = numbers.find(num => num > 20);
-console.log(found); // 25
