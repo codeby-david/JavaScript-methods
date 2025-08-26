@@ -17,11 +17,11 @@ console.log(cars)//['BWM','Mercedes-Benz','Toyota-Vitz']
 
 //3. shift() -Removes the first element from an array.
 
-let fruits = ["apple", "banana", "orange"];
-let first = fruits.shift();
+let fruits1 = ["apple", "banana", "orange"];
+let first = fruits1.shift();
 
 console.log(first);  // "apple"
-console.log(fruits); // ["banana", "orange"]
+console.log(fruits1); // ["banana", "orange"]
 
 //4. unshift() -Adds one or more elements at the beginnig of an array.
 //             -Returns the new length of an array.
@@ -32,8 +32,8 @@ console.log(alphabets)//[ 'Z', 'Y', 'A', 'B', 'C', 'D' ]
 
 //5. map()-Creates a new array by applying a function to each element.
 
-let nums = [1, 2, 3, 4, 5]
-let productOfNums = nums.map(elm => elm * 2)//multiply each element in an array by 2
+let nums1 = [1, 2, 3, 4, 5]
+let productOfNums = nums1.map(elm => elm * 2)//multiply each element in an array by 2
 console.log(productOfNums)//[2,4,6,8,10]
 
 //6. filter()-Creates a new array with elements that passes a particular test or passes a condition
@@ -81,9 +81,9 @@ console.log(words.join("-"));   // "Hello-World"
 
 //12.splice()-Adds/removes items in the origianal array
 //format  - array.splice(start,deletecount,newItems...)
-let fruits = ["apple", "banana", "cherry"];
-fruits.splice(1, 1, "mango");
-console.log(fruits); // ["apple", "mango", "cherry"]
+let fruits2 = ["apple", "banana", "cherry"];
+fruits2.splice(1, 1, "mango");
+console.log(fruits2); // ["apple", "mango", "cherry"]
 
 //13.slice()-Returns a portion of the array ,does not change the original
 let arr = [1, 2, 3, 4, 5];
@@ -102,19 +102,30 @@ console.log(nested.flat());     // [1, 2, [3, 4]]
 console.log(nested.flat(2));    // [1, 2, 3, 4]
 
 //16.some()-Returns true if at least one element passes a condition.
-let nums = [1, 3, 5, 8];
-console.log(nums.some(n => n % 2 === 0)); // true (because 8 is even)
+let nums2 = [1, 3, 5, 8];
+console.log(nums2.some(n => n % 2 === 0)); // true (because 8 is even)
 
 //17.every()Returns true if all element passes a condition
-let nums2 = [2, 4, 6];
-console.log(nums2.every(n => n % 2 === 0)); // true
+let nums3 = [2, 4, 6];
+console.log(nums3.every(n => n % 2 === 0)); // true
 
 //18.sort()-Sorts elements as strings by default.
 //      -To sort numbers correctly, pass a compare function.
 let letters = ["c", "a", "b"];
 console.log(letters.sort()); // ["a", "b", "c"]
 
-let nums3 = [40, 5, 100, 25];
-console.log(nums3.sort());         // [100, 25, 40, 5] (wrong for numbers)
-console.log(nums3.sort((a, b) => a - b)); // [5, 25, 40, 100] (correct)
+let nums4 = [40, 5, 100, 25];
+console.log(nums4.sort());         // [100, 25, 40, 5] (wrong for numbers)
+console.log(nums4.sort((a, b) => a - b)); // [5, 25, 40, 100] (correct)
 
+//19.reverse()-Reverses the order of elements in an array.
+let nums5 = [9,6];
+console.log(nums5.reverse()); // [6, 9]
+
+//20.fill()-Fills all the elements in an array with a static value.
+let nums6 = [];
+console.log(nums6.fill(0, 0, 5)); // [0, 0, 0, 0, 0]
+
+//21.includes()-Checks if an array contains a specific element.
+let nums7 = [1, 2, 3, 4, 5];
+console.log(nums7.includes(3)); // true
