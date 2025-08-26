@@ -19,3 +19,11 @@ console.log(date.toISOString())//2025-08-22T12:07:25.921Z
 
 //5.getTime()-Returns a number of milliseconds since January 1,1970
 console.log(date.getTime())//1755864578215
+
+//6.getDay()-Returns the day of the week(0-6) for a specific date
+console.log(date.getDay()) //3
+
+//7.setFullYear(year)-Sets the year of a date object
+console.log(date.setFullYear(20230))
+
+//we have setMonth(), setDate(), setHours(), setMinutes(), setSeconds(), setMilliseconds() to be used as above
