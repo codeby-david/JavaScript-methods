@@ -1,9 +1,8 @@
-// -------------------------------------------
-// 🔥 throwError.js
-// -------------------------------------------
+
+// throwError.js
 // This file demonstrates how to manually throw
 // and handle custom errors in JavaScript.
-// -------------------------------------------
+
 
 // Example 1: Throwing a simple error
 function divideNumbers(a, b) {
@@ -16,14 +15,14 @@ function divideNumbers(a, b) {
 
 // Using try-catch to handle the thrown error
 try {
-  console.log(divideNumbers(10, 0)); // ❌ Throws an error
+  console.log(divideNumbers(10, 0)); //  Throws an error
 } catch (error) {
   console.error("Error caught:", error.message);
 }
 
-// -------------------------------------------
+
 // Example 2: Throwing a custom error type
-// -------------------------------------------
+
 
 class ValidationError extends Error {
   constructor(message) {
@@ -40,7 +39,7 @@ function checkUsername(username) {
 }
 
 try {
-  console.log(checkUsername("Tom")); // ❌ Too short
+  console.log(checkUsername("Tom")); //  Too short
 } catch (error) {
   console.error(`${error.name}: ${error.message}`);
 }
