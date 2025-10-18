@@ -173,4 +173,4 @@ Explore powerful string handling in JavaScript.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/codeby-david/javascript-methods.git
+   git clone https://github.com/codeby-david/javascript-concepts.git
